@@ -6,3 +6,7 @@ Version 1.0
 
 build basic html UI
 mostly practicing JS 
+
+what i learned:
+- basic jquery selectors and functions
+- hiding and showing parts of the page

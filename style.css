@@ -1,0 +1,69 @@
+.chooseBtnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.points{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+
+}
+
+.betweenRounds{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+}
+
+.vsScreen{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+
+#nextRoundBtn{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.resultTxt{
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.startScreen, .endOfGame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#startGameBtn, #endOfGameBtn{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+}

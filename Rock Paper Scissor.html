@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="logic.js" defer></script> 
+</head>
+<body>
+    <div class="points">
+        <p id="playerPtTxt">Player Points: <span id="playerPoints">0</span></p>
+        <p id="computerPtTxt">Computer Points: <span id="computerPoints">0</span></p>
+    </div>
+    <div class="game">
+        <h1>Your choice:</h1>
+        <div class="chooseBtnContainer">   
+            <button class="chooseBtn" id="chooseRock"><img src="rock.svg" width="150px" height="200px" alt=""></button>
+            <button class="chooseBtn" id="choosePaper"><img src="paper.svg" width="150px" height="200px" alt=""></button> 
+            <button class="chooseBtn" id="chooseScissors"><img src="scissors.svg" width="150px" height="200px" alt=""></button>
+        </div> 
+    </div>
+
+    <div class="betweenRounds">
+        <div class="vsScreen">
+            <div><img id="playerFightImg" width="150px" height="200px" alt=""></div>
+            <p id="vs">VS:</p>
+            <div><img  id="computerFightImg" width="150px" height="200px" alt=""></div>
+        </div>
+        <p class="resultTxt">asdasd</p>
+        <button id="nextRoundBtn" style="display: block;">Next Round!</button>
+    </div>
+
+    <div class="startScreen">
+        <p class="startScreenText">Let play Rock Paper Scissors!</p>
+        <p class="startScreenText">Best of 5!</p>
+        <button id="startGameBtn">Let's go!</button>
+    </div>
+
+    <div class="endOfGame">
+        <p class="endOfGameTxt"></p>
+        <button id="endOfGameBtn"></button>
+
+    </div>
+</body>
+</html>
